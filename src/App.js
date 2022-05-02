@@ -8,8 +8,8 @@ import TotalItems from './components/TotalItems';
 
 function App() {
   return (
-    <div className="container bg-blue p-5 mt-3">
-      <h1>hello</h1>
+    <div className="container bg-blue p-5 mt-3 align-items-center">
+      <h1>Todo Form</h1>
       <AddTodo />
       <TodoList />
       <TotalItems />
